@@ -1,0 +1,7 @@
+.sessions.json
+.config.json
+
+*.backup
+
+lib/
+node_modules/
