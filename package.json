@@ -1,6 +1,13 @@
 {
-    "name": "node-red-project",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "private": true
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mongodb": "^3.2.2",
+    "node-red-contrib-iiot-opcua": "~3.10.2",
+    "node-red-contrib-opcua": "~0.2.44",
+    "node-red-node-mongodb": "0.0.14",
+    "node-red-node-openweathermap": "^0.2.1"
+  }
 }
